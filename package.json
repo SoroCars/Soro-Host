@@ -10,7 +10,7 @@
   "scripts": {
     "installAll": "npm i && cd client && npm i && cd ../server && npm i && cd ../",
     "client": "cd client && npm run dev",
-    "server": "cd server && npm run start",
+    "server": "cd server && npm run dev",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "devDependencies": {

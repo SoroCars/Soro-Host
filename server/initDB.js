@@ -8,7 +8,7 @@ const initDB = async () => {
     console.log("✅ Database connected.");
 
     // Sync all models (you can also use sequelize.sync() here)
-    // await sequelize.sync({ alter: true });
+    await sequelize.sync({ alter: true });
 
     console.log("✅ All models synced successfully.");
   } catch (error) {
